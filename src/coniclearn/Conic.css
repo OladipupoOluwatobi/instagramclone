@@ -1,0 +1,39 @@
+.conic{
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    
+    
+    
+    /* border: 1px solid red; */
+}
+
+.conic::before{
+    content: '';
+    position: absolute;
+    inset: -10px;
+    background: white;
+    z-index: -1;
+    border-radius: 50%;
+    
+    /* padding: 50px; */
+    
+}
+
+.conic::after{
+    content: '';
+    position: absolute;
+    inset: -10px;
+    background: conic-gradient(from 270deg,transparent -10%,#FCC40C,#F52D96,#8301FA,#8301FA,#EA48F4,#FCC40C);
+    z-index: -1;
+    border-radius: 50%;
+    
+    /* padding: 50px; */
+    
+}
+
