@@ -17,7 +17,7 @@
     }
 
     .switch{
-        color: blue;
+        color: rgb(13, 75, 219);
         font-weight: bolder;
     }
 }
@@ -32,7 +32,6 @@
 .friends{
     display: flex;
     align-items: center;
-    gap: 55px;
     box-sizing: border-box;
     margin-top: 10px;
 
@@ -45,6 +44,8 @@
         text-overflow: ellipsis;
         overflow: hidden;  
         width: 190px;
+        box-sizing: border-box;
+        margin: 10px 80px 0 20px;
     }
 
     span{
@@ -52,7 +53,7 @@
        
     }
     .follow{
-        color: blue;
+        color: rgb(13, 75, 219);
         font-weight: bolder;
         width: 100px;
     }
