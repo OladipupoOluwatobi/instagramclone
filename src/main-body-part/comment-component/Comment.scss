@@ -27,3 +27,21 @@
 .publish{
   color: #B3DBFF;
 }
+// .pic::after, .pic::before{
+//   content: '';
+//   position: absolute;
+//   //u can use inset to replace left right bottom and top
+//   top: 0;//-3px
+//   bottom: 0;//-3px
+//   left: 0;//-3px
+//   right: 0; //-3px
+//   background-color: #d11149;
+//   background: conic-gradient (from 180deg, transparent 50%, #d11149);
+//   background: conic-gradient(from 0deg, #d11149, #e68aff, #ff4800, #11ebff, #cdff58, #d11149);
+//   z-index: -1; //set the z-index to 1 so we can see what is changing before setting it to -1
+// }
+// .pic::before{
+//   z-index: -2;
+//   filter: blur(20px);
+//   opacity: 0.7;
+// }

@@ -6,13 +6,16 @@ import './Bodypart.scss';
 import HashTag from './hash-tag-component/Hash';
 import Comment from './comment-component/Comment';
 
+
+
+
 function MiddleBody(){
   return(
     <div className='body-container'>
       <div className="icon-div">
         <div className="left-icon">
-          <i className='far fa-heart'></i>
-          <i class="far fa-comment"></i>
+          <i className='far fa-heart' ></i>
+          <i className="far fa-comment"></i>
           <i className="far fa-paper-plane"></i>
         </div>
 
@@ -35,7 +38,7 @@ function MiddleBody(){
       </div>
 
       <Comment />
-      
+
     </div>
   )
 }
