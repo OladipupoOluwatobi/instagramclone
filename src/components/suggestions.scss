@@ -1,0 +1,59 @@
+.mainContainer{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,50%);
+    width: 400px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span{
+        font-size: larger;
+        font-weight: bolder;
+
+    }
+
+    .switch{
+        color: blue;
+        font-weight: bolder;
+    }
+}
+.suggestionsText{
+    display: flex;
+    justify-content: space-between;
+    
+    p{
+        font-weight: bolder;
+    }
+}
+.friends{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    box-sizing: border-box;
+    margin-top: 10px;
+
+    .nameImage{
+        width: 40px;
+    }
+
+    .nameText{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;  
+        width: 190px;
+    }
+
+    span{
+        color: grey;
+       
+    }
+    .follow{
+        color: blue;
+        font-weight: bolder;
+        width: 100px;
+    }
+}
