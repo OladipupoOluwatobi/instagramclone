@@ -1,4 +1,4 @@
-// import React from 'react'
+
 import './suggestions.scss'
 import profilePic from '../assets/Profile-Pic.png'
 import lauraPic from '../assets/laura.png'
