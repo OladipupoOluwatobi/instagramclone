@@ -1,0 +1,60 @@
+.mainContainer{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,50%);
+    width: 400px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span{
+        font-size: larger;
+        font-weight: bolder;
+
+    }
+
+    .switch{
+        color: rgb(13, 75, 219);
+        font-weight: bolder;
+    }
+}
+.suggestionsText{
+    display: flex;
+    justify-content: space-between;
+    
+    p{
+        font-weight: bolder;
+    }
+}
+.friends{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 10px;
+
+    .nameImage{
+        width: 40px;
+    }
+
+    .nameText{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;  
+        width: 190px;
+        box-sizing: border-box;
+        margin: 10px 80px 0 20px;
+    }
+
+    span{
+        color: grey;
+       
+    }
+    .follow{
+        color: rgb(13, 75, 219);
+        font-weight: bolder;
+        width: 100px;
+    }
+}
