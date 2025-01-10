@@ -1,0 +1,46 @@
+#headcon{
+    width: 99vw;
+    height: 50px;
+    background-color: white;
+    margin-top: -31px;
+    position: absolute;
+    left: 0px;
+    box-shadow: 0 0 1px gray;
+    align-content: center;
+}
+
+#head{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    form{
+        background-color: #fafafa;
+        
+        border-radius: 5px;
+        height: 30px;
+        button{
+            height: 30px;
+            border-radius: 10px 0 0 10px;
+           
+        }
+        input{
+            background-color: #fafafa;
+            border: none; 
+        }
+        input::placeholder{
+            align-items: center;
+        }
+    }   
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#iconFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}

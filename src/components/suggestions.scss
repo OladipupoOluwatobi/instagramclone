@@ -1,8 +1,8 @@
 .mainContainer{
-    position: absolute;
-    left: 50%;
-    top: 0;
-    transform: translate(-50%,50%);
+    position: relative;
+   
+    top: -280px;
+    
     width: 400px;
 }
 .header{
@@ -15,10 +15,17 @@
         font-weight: bolder;
 
     }
+    #color{
+        color: gray;
+        font-size: 0.8rem;
+    }
 
     .switch{
-        color: rgb(13, 75, 219);
+        color: rgb(85, 206, 253);
         font-weight: bolder;
+    }
+    p{
+        text-align: left;
     }
 }
 .suggestionsText{
@@ -46,6 +53,7 @@
         width: 190px;
         box-sizing: border-box;
         margin: 10px 80px 0 20px;
+        text-align: left;
     }
 
     span{
@@ -53,7 +61,7 @@
        
     }
     .follow{
-        color: rgb(13, 75, 219);
+        color: rgb(85, 206, 253);
         font-weight: bolder;
         width: 100px;
     }
